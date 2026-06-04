@@ -3,7 +3,7 @@
 ## security-cli v0.1.0
 
 - Source commit: `f647788971b13d7f6890c6360d6e80118fb3c44d`
-- Build runner: `jhl-space`
+- Build hardening: `trimpath, stripped symbols, garble -tiny`
 - Distribution tag: `security-cli-v0.1.0`
 
 ### Artifacts
