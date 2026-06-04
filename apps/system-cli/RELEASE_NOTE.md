@@ -9,8 +9,18 @@
 ### Artifacts
 
 - SHA256SUMS
-- system-cli_v0.1.0_linux_amd64.tar.gz
-- system-cli_v0.1.0_linux_arm64.tar.gz
+- system-cli_v0.1.0_linux_amd64
+- system-cli_v0.1.0_linux_arm64
+
+### Install
+
+```sh
+curl -fsSL -o system-cli \
+  https://github.com/jhl-labs/dist/releases/download/system-cli-v0.1.0/system-cli_v0.1.0_linux_amd64
+chmod +x system-cli
+sudo install -m 0755 system-cli /usr/local/bin/system-cli
+system-cli --version
+```
 
 ### Highlights
 
