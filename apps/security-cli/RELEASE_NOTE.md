@@ -1,5 +1,36 @@
 # security-cli release notes
 
+## security-cli v0.1.2
+
+- Source commit: `c7718ea491f479cc06f3908155022f92c6632e7e`
+- Build runner: `jhl-space`
+- Distribution tag: `security-cli-v0.1.2`
+
+### Artifacts
+
+- SHA256SUMS
+- security-cli_v0.1.2_darwin_amd64
+- security-cli_v0.1.2_darwin_amd64.tar.gz
+- security-cli_v0.1.2_darwin_arm64
+- security-cli_v0.1.2_darwin_arm64.tar.gz
+- security-cli_v0.1.2_linux_amd64
+- security-cli_v0.1.2_linux_amd64.tar.gz
+- security-cli_v0.1.2_linux_arm64
+- security-cli_v0.1.2_linux_arm64.tar.gz
+- security-cli_v0.1.2_windows_amd64.exe
+- security-cli_v0.1.2_windows_amd64.tar.gz
+- security-cli_v0.1.2_windows_arm64.exe
+- security-cli_v0.1.2_windows_arm64.tar.gz
+
+### Changes
+
+- docs: point downloads to v0.1.2 (c7718ea)
+- feat: deduplicate advisory findings (a2b31b7)
+- feat: improve release diagnostics insight (cc7788f)
+- docs: use cli name as page brand (d5342d3)
+
+---
+
 ## security-cli v0.1.1
 
 - Source commit: `897f6fd20e98d964201be3852e65557b528241b8`
