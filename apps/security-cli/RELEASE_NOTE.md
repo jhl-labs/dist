@@ -1,5 +1,45 @@
 # security-cli release notes
 
+## security-cli v0.1.1
+
+- Source commit: `897f6fd20e98d964201be3852e65557b528241b8`
+- Build runner: `jhl-space`
+- Distribution tag: `security-cli-v0.1.1`
+
+### Artifacts
+
+- SHA256SUMS
+- security-cli_v0.1.1_darwin_amd64
+- security-cli_v0.1.1_darwin_amd64.tar.gz
+- security-cli_v0.1.1_darwin_arm64
+- security-cli_v0.1.1_darwin_arm64.tar.gz
+- security-cli_v0.1.1_linux_amd64
+- security-cli_v0.1.1_linux_amd64.tar.gz
+- security-cli_v0.1.1_linux_arm64
+- security-cli_v0.1.1_linux_arm64.tar.gz
+- security-cli_v0.1.1_windows_amd64.exe
+- security-cli_v0.1.1_windows_amd64.tar.gz
+- security-cli_v0.1.1_windows_arm64.exe
+- security-cli_v0.1.1_windows_arm64.tar.gz
+
+### Changes
+
+- docs: link downloads to public dist release (897f6fd)
+- ci: update actions for node 24 (24533fd)
+- ci: gate dist release with security diagnostics (e99f958)
+- ci: warn when scanner toolchain is absent (d38d096)
+- ci: build cli without make (41f8198)
+- ci: use portable go test on runner (6a1003a)
+- ci: add devsecops verification workflow (a2c8409)
+- ci: publish direct release binaries (c2b4dba)
+- ci: obfuscate public release binaries (38f4464)
+- ci: set content length for release uploads (a5c397f)
+- ci: publish dist releases through github api (1443416)
+- docs: refine landing copy and dark buttons (705dfbb)
+- docs: add theme and language switchers (6d365bd)
+
+---
+
 ## security-cli v0.1.0
 
 - Source commit: `f647788971b13d7f6890c6360d6e80118fb3c44d`
