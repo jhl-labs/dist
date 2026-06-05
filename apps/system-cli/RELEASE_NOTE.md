@@ -2,7 +2,7 @@
 
 ## system-cli v0.1.1
 
-- Source commit: `9bb39305fa293e976cf0ef9e490c1b8882b8cebb`
+- Source commit: `2c09ba3962c938ed6d47817f5513a225480b714b`
 - Build hardening: `trimpath, stripped symbols, CGO disabled`
 - Distribution tag: `system-cli-v0.1.1`
 
@@ -31,6 +31,7 @@ For Linux arm64, use `system-cli_v0.1.1_linux_arm64` in the download URL.
 
 ### Changes
 
+- Ensure gh is available in release workflow (2c09ba3)
 - Update release links to v0.1.1 (9bb3930)
 - Improve public listener evidence output (8f98083)
 - Publish releases to public dist repo (c225f21)
