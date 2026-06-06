@@ -1,5 +1,35 @@
 # security-cli release notes
 
+## security-cli v0.1.4
+
+- Source commit: `a424b8561a8fc543e12b5105a0d1d1ad995ff604`
+- Build runner: `jhl-space`
+- Distribution tag: `security-cli-v0.1.4`
+
+### Artifacts
+
+- SHA256SUMS
+- security-cli_v0.1.4_darwin_amd64
+- security-cli_v0.1.4_darwin_amd64.tar.gz
+- security-cli_v0.1.4_darwin_arm64
+- security-cli_v0.1.4_darwin_arm64.tar.gz
+- security-cli_v0.1.4_linux_amd64
+- security-cli_v0.1.4_linux_amd64.tar.gz
+- security-cli_v0.1.4_linux_arm64
+- security-cli_v0.1.4_linux_arm64.tar.gz
+- security-cli_v0.1.4_windows_amd64.exe
+- security-cli_v0.1.4_windows_amd64.tar.gz
+- security-cli_v0.1.4_windows_arm64.exe
+- security-cli_v0.1.4_windows_arm64.tar.gz
+
+### Changes
+
+- Update docs for security-cli v0.1.4 (a424b85)
+- Improve human finding details in reports (b571e73)
+- Document first-run scanner setup flow (62a2b15)
+
+---
+
 ## security-cli v0.1.3
 
 - Source commit: `3d83625c169e8ca9cfc83c801980151ccc8d4e49`
