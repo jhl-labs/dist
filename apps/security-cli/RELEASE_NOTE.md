@@ -1,5 +1,34 @@
 # security-cli release notes
 
+## security-cli v0.1.8
+
+- Source commit: `eeaf428897d4a747641b215b253ff3c8aba20056`
+- Build runner: `jhl-space`
+- Distribution tag: `security-cli-v0.1.8`
+
+### Artifacts
+
+- SHA256SUMS
+- security-cli_v0.1.8_darwin_amd64
+- security-cli_v0.1.8_darwin_amd64.tar.gz
+- security-cli_v0.1.8_darwin_arm64
+- security-cli_v0.1.8_darwin_arm64.tar.gz
+- security-cli_v0.1.8_linux_amd64
+- security-cli_v0.1.8_linux_amd64.tar.gz
+- security-cli_v0.1.8_linux_arm64
+- security-cli_v0.1.8_linux_arm64.tar.gz
+- security-cli_v0.1.8_windows_amd64.exe
+- security-cli_v0.1.8_windows_amd64.tar.gz
+- security-cli_v0.1.8_windows_arm64.exe
+- security-cli_v0.1.8_windows_arm64.tar.gz
+
+### Changes
+
+- Run security gates with installed scanners (eeaf428)
+- Avoid GitHub API dependency for self updates (6f09106)
+
+---
+
 ## security-cli v0.1.7
 
 - Source commit: `26b4291f332187f2e838b39bc635262ab409a76a`
