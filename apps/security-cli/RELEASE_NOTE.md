@@ -1,5 +1,33 @@
 # security-cli release notes
 
+## security-cli v0.1.7
+
+- Source commit: `26b4291f332187f2e838b39bc635262ab409a76a`
+- Build runner: `jhl-space`
+- Distribution tag: `security-cli-v0.1.7`
+
+### Artifacts
+
+- SHA256SUMS
+- security-cli_v0.1.7_darwin_amd64
+- security-cli_v0.1.7_darwin_amd64.tar.gz
+- security-cli_v0.1.7_darwin_arm64
+- security-cli_v0.1.7_darwin_arm64.tar.gz
+- security-cli_v0.1.7_linux_amd64
+- security-cli_v0.1.7_linux_amd64.tar.gz
+- security-cli_v0.1.7_linux_arm64
+- security-cli_v0.1.7_linux_arm64.tar.gz
+- security-cli_v0.1.7_windows_amd64.exe
+- security-cli_v0.1.7_windows_amd64.tar.gz
+- security-cli_v0.1.7_windows_arm64.exe
+- security-cli_v0.1.7_windows_arm64.tar.gz
+
+### Changes
+
+- Avoid GitHub API dependency for tool installs (26b4291)
+
+---
+
 ## security-cli v0.1.6
 
 - Source commit: `ade063394af897fb5d718ce1a8c911d50a8e692e`
