@@ -1,5 +1,42 @@
 # system-cli release notes
 
+## system-cli v0.1.2
+
+- Source commit: `f65af56d88660ffacf7219595ddc636e0b8b73d5`
+- Build hardening: `trimpath, stripped symbols, CGO disabled`
+- Distribution tag: `system-cli-v0.1.2`
+
+### Install
+
+```bash
+curl -fsSL -o system-cli https://github.com/jhl-labs/dist/releases/download/system-cli-v0.1.2/system-cli_v0.1.2_linux_amd64
+chmod +x system-cli
+sudo install -m 0755 system-cli /usr/local/bin/system-cli
+system-cli --version
+```
+
+For Linux arm64, use `system-cli_v0.1.2_linux_arm64` in the download URL.
+
+### Artifacts
+
+- SHA256SUMS
+- system-cli_v0.1.2_linux_amd64
+- system-cli_v0.1.2_linux_arm64
+
+### Highlights
+
+- Agent-ready Linux host diagnostics for packages, updates, services, unit files, ports, SSH/sudo posture, hardening, containers, YAML manifests, and OSV advisories.
+- Baseline drift detection with approval and ignore policy controls.
+- Text reports, remediation context, JSON output, strict exit codes, and run history for periodic agent execution.
+
+### Changes
+
+- Add self update command (f65af56)
+- Improve docs install command copy UI (8973cfc)
+- Add one-line install script (0509fdc)
+
+---
+
 ## system-cli v0.1.1
 
 - Source commit: `2c09ba3962c938ed6d47817f5513a225480b714b`
