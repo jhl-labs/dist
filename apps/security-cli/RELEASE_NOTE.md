@@ -1,5 +1,33 @@
 # security-cli release notes
 
+## security-cli v0.1.5
+
+- Source commit: `b91d3818a249b6e7983862671e9cb3ff30259673`
+- Build runner: `jhl-space`
+- Distribution tag: `security-cli-v0.1.5`
+
+### Artifacts
+
+- SHA256SUMS
+- security-cli_v0.1.5_darwin_amd64
+- security-cli_v0.1.5_darwin_amd64.tar.gz
+- security-cli_v0.1.5_darwin_arm64
+- security-cli_v0.1.5_darwin_arm64.tar.gz
+- security-cli_v0.1.5_linux_amd64
+- security-cli_v0.1.5_linux_amd64.tar.gz
+- security-cli_v0.1.5_linux_arm64
+- security-cli_v0.1.5_linux_arm64.tar.gz
+- security-cli_v0.1.5_windows_amd64.exe
+- security-cli_v0.1.5_windows_amd64.tar.gz
+- security-cli_v0.1.5_windows_arm64.exe
+- security-cli_v0.1.5_windows_arm64.tar.gz
+
+### Changes
+
+- Add self update command (b91d381)
+
+---
+
 ## security-cli v0.1.4
 
 - Source commit: `a424b8561a8fc543e12b5105a0d1d1ad995ff604`
