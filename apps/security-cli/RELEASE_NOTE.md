@@ -1,5 +1,33 @@
 # security-cli release notes
 
+## security-cli v0.1.6
+
+- Source commit: `ade063394af897fb5d718ce1a8c911d50a8e692e`
+- Build runner: `jhl-space`
+- Distribution tag: `security-cli-v0.1.6`
+
+### Artifacts
+
+- SHA256SUMS
+- security-cli_v0.1.6_darwin_amd64
+- security-cli_v0.1.6_darwin_amd64.tar.gz
+- security-cli_v0.1.6_darwin_arm64
+- security-cli_v0.1.6_darwin_arm64.tar.gz
+- security-cli_v0.1.6_linux_amd64
+- security-cli_v0.1.6_linux_amd64.tar.gz
+- security-cli_v0.1.6_linux_arm64
+- security-cli_v0.1.6_linux_arm64.tar.gz
+- security-cli_v0.1.6_windows_amd64.exe
+- security-cli_v0.1.6_windows_amd64.tar.gz
+- security-cli_v0.1.6_windows_arm64.exe
+- security-cli_v0.1.6_windows_arm64.tar.gz
+
+### Changes
+
+- Fix scanner tool manifest checksum verification (ade0633)
+
+---
+
 ## security-cli v0.1.5
 
 - Source commit: `b91d3818a249b6e7983862671e9cb3ff30259673`
