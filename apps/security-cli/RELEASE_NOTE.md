@@ -1,5 +1,35 @@
 # security-cli release notes
 
+## security-cli v0.1.3
+
+- Source commit: `3d83625c169e8ca9cfc83c801980151ccc8d4e49`
+- Build runner: `jhl-space`
+- Distribution tag: `security-cli-v0.1.3`
+
+### Artifacts
+
+- SHA256SUMS
+- security-cli_v0.1.3_darwin_amd64
+- security-cli_v0.1.3_darwin_amd64.tar.gz
+- security-cli_v0.1.3_darwin_arm64
+- security-cli_v0.1.3_darwin_arm64.tar.gz
+- security-cli_v0.1.3_linux_amd64
+- security-cli_v0.1.3_linux_amd64.tar.gz
+- security-cli_v0.1.3_linux_arm64
+- security-cli_v0.1.3_linux_arm64.tar.gz
+- security-cli_v0.1.3_windows_amd64.exe
+- security-cli_v0.1.3_windows_amd64.tar.gz
+- security-cli_v0.1.3_windows_arm64.exe
+- security-cli_v0.1.3_windows_arm64.tar.gz
+
+### Changes
+
+- Install scanner tools from GitHub releases (3d83625)
+- Improve install command copy UI (41c4f4d)
+- Add latest install script (1a2abbb)
+
+---
+
 ## security-cli v0.1.2
 
 - Source commit: `c7718ea491f479cc06f3908155022f92c6632e7e`
