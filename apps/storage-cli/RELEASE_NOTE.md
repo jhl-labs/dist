@@ -1,5 +1,34 @@
 # storage-cli release notes
 
+## storage-cli v0.1.3
+
+- Source commit: `17c3c678ec64930f1955ad0aefa49498f6f2224c`
+- Build hardening: `trimpath, stripped symbols`
+- Distribution tag: `storage-cli-v0.1.3`
+
+### Install
+
+```bash
+curl -fsSL https://jhl-labs.github.io/storage-cli/install.sh | sudo bash
+storage-cli --version
+sudo storage-cli --update
+```
+
+To pin this release, run `curl -fsSL https://jhl-labs.github.io/storage-cli/install.sh | sudo env VERSION=v0.1.3 bash`.
+For manual Linux downloads, use the direct executable assets below.
+
+### Artifacts
+
+- SHA256SUMS
+- storage-cli_v0.1.3_linux_amd64
+- storage-cli_v0.1.3_linux_arm64
+
+### Changes
+
+- Stabilize release binary build (17c3c67)
+
+---
+
 ## storage-cli v0.1.2
 
 - Source commit: `fb0ffa552a2564260d6b58032727ba38454e9448`
