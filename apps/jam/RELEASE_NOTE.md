@@ -1,5 +1,44 @@
 # jam release notes
 
+## JAM v0.11.0
+
+- Source commit: `3697a51d60dbb2f3281e411ad7c5d2156dcf3dcf`
+- Build runner: `jhl-space`
+- Distribution tag: `jam-v0.11.0`
+- Metrics spec: `v2.3.4`
+
+### Artifacts
+
+- SHA256SUMS
+- jam_v0.11.0_darwin_amd64
+- jam_v0.11.0_darwin_amd64.tar.gz
+- jam_v0.11.0_darwin_arm64
+- jam_v0.11.0_darwin_arm64.tar.gz
+- jam_v0.11.0_linux_amd64
+- jam_v0.11.0_linux_amd64.tar.gz
+- jam_v0.11.0_linux_arm64
+- jam_v0.11.0_linux_arm64.tar.gz
+- jam_v0.11.0_windows_amd64.exe
+- jam_v0.11.0_windows_amd64.tar.gz
+- jam_v0.11.0_windows_arm64.exe
+- jam_v0.11.0_windows_arm64.tar.gz
+
+### Changes
+
+- Format coverage test files with gofmt (3697a51)
+- JAM v0.11.0: complexity refactor + coverage safety net (97dc966)
+- Render homepage coverage summary as chart (f91d023)
+- Add homepage metric coverage summary (348f0dd)
+- Simplify homepage metric descriptions (f85277c)
+- Improve Pages readability and responsive tables (f52fefe)
+- Document metric formulas and category scores (65a3869)
+- Fix Pages command layout overlap (a32bfb8)
+- Fix Pages hero layout (ce95233)
+- Improve GitHub Pages home content (82b8542)
+- Render full docs in GitHub Pages (9f71146)
+
+---
+
 ## JAM v0.10.7
 
 - Source commit: `3cfe2874fee14eba6298fff41820c15764d8708f`
