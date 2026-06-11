@@ -1,5 +1,36 @@
 # jam release notes
 
+## JAM v0.13.0
+
+- Source commit: `56ac2e58e22c201d5ffd4acf8504ac6640f3f402`
+- Build runner: `jhl-space`
+- Distribution tag: `jam-v0.13.0`
+- Metrics spec: `v4.0.0`
+
+### Artifacts
+
+- SHA256SUMS
+- jam_v0.13.0_darwin_amd64
+- jam_v0.13.0_darwin_amd64.tar.gz
+- jam_v0.13.0_darwin_arm64
+- jam_v0.13.0_darwin_arm64.tar.gz
+- jam_v0.13.0_linux_amd64
+- jam_v0.13.0_linux_amd64.tar.gz
+- jam_v0.13.0_linux_arm64
+- jam_v0.13.0_linux_arm64.tar.gz
+- jam_v0.13.0_windows_amd64.exe
+- jam_v0.13.0_windows_amd64.tar.gz
+- jam_v0.13.0_windows_arm64.exe
+- jam_v0.13.0_windows_arm64.tar.gz
+
+### Changes
+
+- JAM v0.13.0 / metrics v4.0.0: TDRMax 0.20 -> 0.10 (de-leniency) (56ac2e5)
+- Add SonarQube and smoke test quality checks (7b50d6b)
+- Surface jam-full on homepage (bde5cf4)
+
+---
+
 ## JAM v0.12.0
 
 - Source commit: `68a9bf3e58f454bc763acec5a62db9e42e00910b`
