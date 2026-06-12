@@ -1,5 +1,34 @@
 # jam release notes
 
+## JAM v0.14.0
+
+- Source commit: `62a0a02943ead4582f5cb392ba46f4694d304dd7`
+- Build runner: `jhl-space`
+- Distribution tag: `jam-v0.14.0`
+- Metrics spec: `v4.0.0`
+
+### Artifacts
+
+- SHA256SUMS
+- jam_v0.14.0_darwin_amd64
+- jam_v0.14.0_darwin_amd64.tar.gz
+- jam_v0.14.0_darwin_arm64
+- jam_v0.14.0_darwin_arm64.tar.gz
+- jam_v0.14.0_linux_amd64
+- jam_v0.14.0_linux_amd64.tar.gz
+- jam_v0.14.0_linux_arm64
+- jam_v0.14.0_linux_arm64.tar.gz
+- jam_v0.14.0_windows_amd64.exe
+- jam_v0.14.0_windows_amd64.tar.gz
+- jam_v0.14.0_windows_arm64.exe
+- jam_v0.14.0_windows_arm64.tar.gz
+
+### Changes
+
+- JAM v0.14.0 / metrics v5.0.0: SEC-02 Java/C# + critical escalation (62a0a02)
+
+---
+
 ## JAM v0.13.0
 
 - Source commit: `56ac2e58e22c201d5ffd4acf8504ac6640f3f402`
