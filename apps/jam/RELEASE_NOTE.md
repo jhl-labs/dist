@@ -1,5 +1,36 @@
 # jam release notes
 
+## JAM v0.15.0
+
+- Source commit: `97ff7b44a76712edca7d2543a1e640264848c3d6`
+- Build runner: `jhl-space`
+- Distribution tag: `jam-v0.15.0`
+- Metrics spec: `v5.0.0`
+
+### Artifacts
+
+- SHA256SUMS
+- jam_v0.15.0_darwin_amd64
+- jam_v0.15.0_darwin_amd64.tar.gz
+- jam_v0.15.0_darwin_arm64
+- jam_v0.15.0_darwin_arm64.tar.gz
+- jam_v0.15.0_linux_amd64
+- jam_v0.15.0_linux_amd64.tar.gz
+- jam_v0.15.0_linux_arm64
+- jam_v0.15.0_linux_arm64.tar.gz
+- jam_v0.15.0_windows_amd64.exe
+- jam_v0.15.0_windows_amd64.tar.gz
+- jam_v0.15.0_windows_arm64.exe
+- jam_v0.15.0_windows_arm64.tar.gz
+
+### Changes
+
+- Prepare JAM v0.15.0 release (97ff7b4)
+- Honor nested gitignore and dependency dirs (8b51798)
+- docs: update for v0.14.0 / metrics v5.0.0 release (46e9925)
+
+---
+
 ## JAM v0.14.0
 
 - Source commit: `62a0a02943ead4582f5cb392ba46f4694d304dd7`
