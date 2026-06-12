@@ -1,5 +1,34 @@
 # jam release notes
 
+## JAM v0.16.0
+
+- Source commit: `bc2bbd5198a34ea3262881472d8b228e7c286fb9`
+- Build runner: `jhl-space`
+- Distribution tag: `jam-v0.16.0`
+- Metrics spec: `v6.0.0`
+
+### Artifacts
+
+- SHA256SUMS
+- jam_v0.16.0_darwin_amd64
+- jam_v0.16.0_darwin_amd64.tar.gz
+- jam_v0.16.0_darwin_arm64
+- jam_v0.16.0_darwin_arm64.tar.gz
+- jam_v0.16.0_linux_amd64
+- jam_v0.16.0_linux_amd64.tar.gz
+- jam_v0.16.0_linux_arm64
+- jam_v0.16.0_linux_arm64.tar.gz
+- jam_v0.16.0_windows_amd64.exe
+- jam_v0.16.0_windows_amd64.tar.gz
+- jam_v0.16.0_windows_arm64.exe
+- jam_v0.16.0_windows_arm64.tar.gz
+
+### Changes
+
+- JAM v0.16.0 / metrics v6.0.0: SEC-04 dynamic-execution critical escalation (bc2bbd5)
+
+---
+
 ## JAM v0.15.0
 
 - Source commit: `97ff7b44a76712edca7d2543a1e640264848c3d6`
