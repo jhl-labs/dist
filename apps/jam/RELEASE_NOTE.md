@@ -1,5 +1,44 @@
 # jam release notes
 
+## JAM v0.17.0
+
+- Source commit: `cd1194caacd9c462d1bc762022eeb9d0c9e5e8db`
+- Build runner: `jhl-space`
+- Distribution tag: `jam-v0.17.0`
+- Metrics spec: `v6.1.0`
+
+### Artifacts
+
+- SHA256SUMS
+- jam_v0.17.0_darwin_amd64
+- jam_v0.17.0_darwin_amd64.tar.gz
+- jam_v0.17.0_darwin_arm64
+- jam_v0.17.0_darwin_arm64.tar.gz
+- jam_v0.17.0_linux_amd64
+- jam_v0.17.0_linux_amd64.tar.gz
+- jam_v0.17.0_linux_arm64
+- jam_v0.17.0_linux_arm64.tar.gz
+- jam_v0.17.0_windows_amd64.exe
+- jam_v0.17.0_windows_amd64.tar.gz
+- jam_v0.17.0_windows_arm64.exe
+- jam_v0.17.0_windows_arm64.tar.gz
+
+### Changes
+
+- JAM v0.17.0 / metrics v6.1.0: ARCH-05 Hub-Like + ARCH-06 Propagation Cost (cd1194c)
+- Set up Go before GitOps test scan (8118f4e)
+- Install project dependencies before GitOps test scan (4f3719d)
+- Run Go coverage in GitOps quality workflow (b3dc2f9)
+- Exclude JAM testdata from Sonar scan (6c3f84a)
+- Run GitOps quality workflow on master (47d8f10)
+- Update GitOps quality workflow (5fb4564)
+- Publish JAM v0.16.0 installer metadata (e607ada)
+- Retry transient SonarQube scan failures (6f3697c)
+- Harden GitOps quality metrics reporting (2e6dd5c)
+- Stop reporting smoke test coverage (9e1476a)
+
+---
+
 ## JAM v0.16.0
 
 - Source commit: `bc2bbd5198a34ea3262881472d8b228e7c286fb9`
