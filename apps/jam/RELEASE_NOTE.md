@@ -1,5 +1,39 @@
 # jam release notes
 
+## JAM v0.19.0
+
+- Source commit: `6d05ec6712bf0bba62eb087f17b3ce1b8676ff09`
+- Build runner: `jhl-space`
+- Distribution tag: `jam-v0.19.0`
+- Metrics spec: `v8.0.0`
+
+### Artifacts
+
+- SHA256SUMS
+- jam_v0.19.0_darwin_amd64
+- jam_v0.19.0_darwin_amd64.tar.gz
+- jam_v0.19.0_darwin_arm64
+- jam_v0.19.0_darwin_arm64.tar.gz
+- jam_v0.19.0_linux_amd64
+- jam_v0.19.0_linux_amd64.tar.gz
+- jam_v0.19.0_linux_arm64
+- jam_v0.19.0_linux_arm64.tar.gz
+- jam_v0.19.0_windows_amd64.exe
+- jam_v0.19.0_windows_amd64.tar.gz
+- jam_v0.19.0_windows_arm64.exe
+- jam_v0.19.0_windows_arm64.tar.gz
+
+### Changes
+
+- JAM v0.19.0 / metrics v8.0.0: SIG risk-profile diagnostic + concentration guard (6d05ec6)
+- Refine scoring model evidence notes (340460c)
+- Use stable setup-go action in workflows (d2b56aa)
+- Use local Go before setup-go on self-hosted runners (9f77e60)
+- Harden workflow Go setup and scoring evidence docs (d286967)
+- Document evidence requirements for metrics (5534bd2)
+
+---
+
 ## JAM v0.18.0
 
 - Source commit: `ae2b92c4bfd39aaab024bf8dbfc817a1cccc319c`
