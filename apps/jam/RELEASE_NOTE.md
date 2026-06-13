@@ -1,5 +1,40 @@
 # jam release notes
 
+## JAM v0.18.0
+
+- Source commit: `ae2b92c4bfd39aaab024bf8dbfc817a1cccc319c`
+- Build runner: `jhl-space`
+- Distribution tag: `jam-v0.18.0`
+- Metrics spec: `v7.0.0`
+
+### Artifacts
+
+- SHA256SUMS
+- jam_v0.18.0_darwin_amd64
+- jam_v0.18.0_darwin_amd64.tar.gz
+- jam_v0.18.0_darwin_arm64
+- jam_v0.18.0_darwin_arm64.tar.gz
+- jam_v0.18.0_linux_amd64
+- jam_v0.18.0_linux_amd64.tar.gz
+- jam_v0.18.0_linux_arm64
+- jam_v0.18.0_linux_arm64.tar.gz
+- jam_v0.18.0_windows_amd64.exe
+- jam_v0.18.0_windows_amd64.tar.gz
+- jam_v0.18.0_windows_arm64.exe
+- jam_v0.18.0_windows_arm64.tar.gz
+
+### Changes
+
+- JAM v0.18.0: SEC score caps and release guards (ae2b92c)
+- Baseline legacy Sonar sort findings (59518b9)
+- Limit SonarQube scope to source code (ad9837c)
+- Baseline legacy Sonar maintainability rules (c0830e1)
+- Tighten SonarQube analysis scope (8e98e35)
+- Run JAM v0.17.0 in quality workflow (c7eeef9)
+- Document JAM exceptions for scanner orchestration (56529f8)
+
+---
+
 ## JAM v0.17.0
 
 - Source commit: `cd1194caacd9c462d1bc762022eeb9d0c9e5e8db`
