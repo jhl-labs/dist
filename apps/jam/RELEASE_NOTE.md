@@ -1,5 +1,34 @@
 # jam release notes
 
+## JAM v0.30.0
+
+- Source commit: `e67b1f9118819605e71e256bd312357011ac5d5f`
+- Build runner: `jhl-space`
+- Distribution tag: `jam-v0.30.0`
+- Metrics spec: `v9.0.0`
+
+### Artifacts
+
+- SHA256SUMS
+- jam_v0.30.0_darwin_amd64
+- jam_v0.30.0_darwin_amd64.tar.gz
+- jam_v0.30.0_darwin_arm64
+- jam_v0.30.0_darwin_arm64.tar.gz
+- jam_v0.30.0_linux_amd64
+- jam_v0.30.0_linux_amd64.tar.gz
+- jam_v0.30.0_linux_arm64
+- jam_v0.30.0_linux_arm64.tar.gz
+- jam_v0.30.0_windows_amd64.exe
+- jam_v0.30.0_windows_amd64.tar.gz
+- jam_v0.30.0_windows_arm64.exe
+- jam_v0.30.0_windows_arm64.tar.gz
+
+### Changes
+
+- JAM v0.30.0 / metrics v9.0.0: ARCH coupling concentration ceiling + raw signal (e67b1f9)
+
+---
+
 ## JAM v0.29.0
 
 - Source commit: `7996f94a90544e62a1cb60ccf6f49ffae24c021f`
