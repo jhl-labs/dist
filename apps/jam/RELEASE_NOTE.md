@@ -1,5 +1,34 @@
 # jam release notes
 
+## JAM v0.31.0
+
+- Source commit: `103ecbdf273efd97a0cf1a1c1c45457c0a02703e`
+- Build runner: `jhl-space`
+- Distribution tag: `jam-v0.31.0`
+- Metrics spec: `v10.0.0`
+
+### Artifacts
+
+- SHA256SUMS
+- jam_v0.31.0_darwin_amd64
+- jam_v0.31.0_darwin_amd64.tar.gz
+- jam_v0.31.0_darwin_arm64
+- jam_v0.31.0_darwin_arm64.tar.gz
+- jam_v0.31.0_linux_amd64
+- jam_v0.31.0_linux_amd64.tar.gz
+- jam_v0.31.0_linux_arm64
+- jam_v0.31.0_linux_arm64.tar.gz
+- jam_v0.31.0_windows_amd64.exe
+- jam_v0.31.0_windows_amd64.tar.gz
+- jam_v0.31.0_windows_arm64.exe
+- jam_v0.31.0_windows_arm64.tar.gz
+
+### Changes
+
+- JAM v0.31.0 / metrics v10.0.0: god-type extreme ceiling (SIZE-04 in score) (103ecbd)
+
+---
+
 ## JAM v0.30.0
 
 - Source commit: `e67b1f9118819605e71e256bd312357011ac5d5f`
