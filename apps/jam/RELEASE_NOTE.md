@@ -1,5 +1,35 @@
 # jam release notes
 
+## JAM v0.25.0
+
+- Source commit: `bf75e7160e2d285d41e57dda14932aa339ad1390`
+- Build runner: `jhl-space`
+- Distribution tag: `jam-v0.25.0`
+- Metrics spec: `v8.6.0`
+
+### Artifacts
+
+- SHA256SUMS
+- jam_v0.25.0_darwin_amd64
+- jam_v0.25.0_darwin_amd64.tar.gz
+- jam_v0.25.0_darwin_arm64
+- jam_v0.25.0_darwin_arm64.tar.gz
+- jam_v0.25.0_linux_amd64
+- jam_v0.25.0_linux_amd64.tar.gz
+- jam_v0.25.0_linux_arm64
+- jam_v0.25.0_linux_arm64.tar.gz
+- jam_v0.25.0_windows_amd64.exe
+- jam_v0.25.0_windows_amd64.tar.gz
+- jam_v0.25.0_windows_arm64.exe
+- jam_v0.25.0_windows_arm64.tar.gz
+
+### Changes
+
+- JAM v0.25.0 / metrics v8.6.0: SIZE-04 God Type for Java and Python (bf75e71)
+- JAM v0.24.0 / metrics v8.5.0: SIZE-04 God Type for Java and Python (fe56a90)
+
+---
+
 ## JAM v0.24.0
 
 - Source commit: `bf09b8df26164bfd2450166669d66183e069313e`
