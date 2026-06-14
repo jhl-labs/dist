@@ -1,5 +1,34 @@
 # jam release notes
 
+## JAM v0.23.0
+
+- Source commit: `890a8baf449e7b1b4655235f55afe5120af474d4`
+- Build runner: `jhl-space`
+- Distribution tag: `jam-v0.23.0`
+- Metrics spec: `v8.4.0`
+
+### Artifacts
+
+- SHA256SUMS
+- jam_v0.23.0_darwin_amd64
+- jam_v0.23.0_darwin_amd64.tar.gz
+- jam_v0.23.0_darwin_arm64
+- jam_v0.23.0_darwin_arm64.tar.gz
+- jam_v0.23.0_linux_amd64
+- jam_v0.23.0_linux_amd64.tar.gz
+- jam_v0.23.0_linux_arm64
+- jam_v0.23.0_linux_arm64.tar.gz
+- jam_v0.23.0_windows_amd64.exe
+- jam_v0.23.0_windows_amd64.tar.gz
+- jam_v0.23.0_windows_arm64.exe
+- jam_v0.23.0_windows_arm64.tar.gz
+
+### Changes
+
+- JAM v0.23.0 / metrics v8.4.0: SIZE-04 God Type extended to TypeScript (890a8ba)
+
+---
+
 ## JAM v0.22.0
 
 - Source commit: `0413d17753627a4024e367710c87bf5ab8a00b53`
