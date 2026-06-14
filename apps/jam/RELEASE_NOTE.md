@@ -1,5 +1,37 @@
 # jam release notes
 
+## JAM v0.22.0
+
+- Source commit: `0413d17753627a4024e367710c87bf5ab8a00b53`
+- Build runner: `jhl-space`
+- Distribution tag: `jam-v0.22.0`
+- Metrics spec: `v8.3.0`
+
+### Artifacts
+
+- SHA256SUMS
+- jam_v0.22.0_darwin_amd64
+- jam_v0.22.0_darwin_amd64.tar.gz
+- jam_v0.22.0_darwin_arm64
+- jam_v0.22.0_darwin_arm64.tar.gz
+- jam_v0.22.0_linux_amd64
+- jam_v0.22.0_linux_amd64.tar.gz
+- jam_v0.22.0_linux_arm64
+- jam_v0.22.0_linux_arm64.tar.gz
+- jam_v0.22.0_windows_amd64.exe
+- jam_v0.22.0_windows_amd64.tar.gz
+- jam_v0.22.0_windows_arm64.exe
+- jam_v0.22.0_windows_arm64.tar.gz
+
+### Changes
+
+- JAM v0.22.0 / metrics v8.3.0: ARCH-07 (LCOM4) generalized to TypeScript (0413d17)
+- treesitter: parse non-Go languages via tree-sitter on wazero (pure Go, CGO off) (9a15422)
+- Expand jam-full scoring signals (aaa5101)
+- Expand jam-full external metrics (89a1e22)
+
+---
+
 ## JAM v0.21.0
 
 - Source commit: `3ddc28b9063b4bf8e6008dc183aa4a3db4810cd7`
