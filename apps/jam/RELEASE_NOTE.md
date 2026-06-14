@@ -1,5 +1,34 @@
 # jam release notes
 
+## JAM v0.33.0
+
+- Source commit: `0d6c055f149bba421e3d178242e1ba7b1a2493cf`
+- Build runner: `jhl-space`
+- Distribution tag: `jam-v0.33.0`
+- Metrics spec: `v11.0.0`
+
+### Artifacts
+
+- SHA256SUMS
+- jam_v0.33.0_darwin_amd64
+- jam_v0.33.0_darwin_amd64.tar.gz
+- jam_v0.33.0_darwin_arm64
+- jam_v0.33.0_darwin_arm64.tar.gz
+- jam_v0.33.0_linux_amd64
+- jam_v0.33.0_linux_amd64.tar.gz
+- jam_v0.33.0_linux_arm64
+- jam_v0.33.0_linux_arm64.tar.gz
+- jam_v0.33.0_windows_amd64.exe
+- jam_v0.33.0_windows_amd64.tar.gz
+- jam_v0.33.0_windows_arm64.exe
+- jam_v0.33.0_windows_arm64.tar.gz
+
+### Changes
+
+- JAM v0.33.0 / metrics v11.0.0: fix FPs/FNs from a findings review (0d6c055)
+
+---
+
 ## JAM v0.32.0
 
 - Source commit: `028704080801e175fc222ca3fb74518af89bc19e`
