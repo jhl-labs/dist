@@ -1,5 +1,34 @@
 # jam release notes
 
+## JAM v0.28.0
+
+- Source commit: `dea2d851ba8d509896e24ea4985379fe045ffc7f`
+- Build runner: `jhl-space`
+- Distribution tag: `jam-v0.28.0`
+- Metrics spec: `v8.9.0`
+
+### Artifacts
+
+- SHA256SUMS
+- jam_v0.28.0_darwin_amd64
+- jam_v0.28.0_darwin_amd64.tar.gz
+- jam_v0.28.0_darwin_arm64
+- jam_v0.28.0_darwin_arm64.tar.gz
+- jam_v0.28.0_linux_amd64
+- jam_v0.28.0_linux_amd64.tar.gz
+- jam_v0.28.0_linux_arm64
+- jam_v0.28.0_linux_arm64.tar.gz
+- jam_v0.28.0_windows_amd64.exe
+- jam_v0.28.0_windows_amd64.tar.gz
+- jam_v0.28.0_windows_arm64.exe
+- jam_v0.28.0_windows_arm64.tar.gz
+
+### Changes
+
+- JAM v0.28.0 / metrics v8.9.0: C++ and Rust type-internal metrics (dea2d85)
+
+---
+
 ## JAM v0.27.0
 
 - Source commit: `c68616c2fc1b94ee29890d22d27abf6b3871e399`
