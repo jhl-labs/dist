@@ -1,5 +1,34 @@
 # jam release notes
 
+## JAM v0.32.0
+
+- Source commit: `028704080801e175fc222ca3fb74518af89bc19e`
+- Build runner: `jhl-space`
+- Distribution tag: `jam-v0.32.0`
+- Metrics spec: `v10.1.0`
+
+### Artifacts
+
+- SHA256SUMS
+- jam_v0.32.0_darwin_amd64
+- jam_v0.32.0_darwin_amd64.tar.gz
+- jam_v0.32.0_darwin_arm64
+- jam_v0.32.0_darwin_arm64.tar.gz
+- jam_v0.32.0_linux_amd64
+- jam_v0.32.0_linux_amd64.tar.gz
+- jam_v0.32.0_linux_arm64
+- jam_v0.32.0_linux_arm64.tar.gz
+- jam_v0.32.0_windows_amd64.exe
+- jam_v0.32.0_windows_amd64.tar.gz
+- jam_v0.32.0_windows_arm64.exe
+- jam_v0.32.0_windows_arm64.tar.gz
+
+### Changes
+
+- JAM v0.32.0 / metrics v10.1.0: close two language-coverage gaps in discovery (0287040)
+
+---
+
 ## JAM v0.31.0
 
 - Source commit: `103ecbdf273efd97a0cf1a1c1c45457c0a02703e`
