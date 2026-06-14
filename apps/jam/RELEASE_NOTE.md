@@ -1,5 +1,34 @@
 # jam release notes
 
+## JAM v0.26.0
+
+- Source commit: `01663a33354bb30f90c9e404845973e658416bca`
+- Build runner: `jhl-space`
+- Distribution tag: `jam-v0.26.0`
+- Metrics spec: `v8.7.0`
+
+### Artifacts
+
+- SHA256SUMS
+- jam_v0.26.0_darwin_amd64
+- jam_v0.26.0_darwin_amd64.tar.gz
+- jam_v0.26.0_darwin_arm64
+- jam_v0.26.0_darwin_arm64.tar.gz
+- jam_v0.26.0_linux_amd64
+- jam_v0.26.0_linux_amd64.tar.gz
+- jam_v0.26.0_linux_arm64
+- jam_v0.26.0_linux_arm64.tar.gz
+- jam_v0.26.0_windows_amd64.exe
+- jam_v0.26.0_windows_amd64.tar.gz
+- jam_v0.26.0_windows_arm64.exe
+- jam_v0.26.0_windows_arm64.tar.gz
+
+### Changes
+
+- JAM v0.26.0 / metrics v8.7.0: ARCH-08 Deep Inheritance (DIT) (01663a3)
+
+---
+
 ## JAM v0.25.0
 
 - Source commit: `bf75e7160e2d285d41e57dda14932aa339ad1390`
