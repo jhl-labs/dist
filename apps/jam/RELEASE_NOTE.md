@@ -1,5 +1,34 @@
 # jam release notes
 
+## JAM v0.21.0
+
+- Source commit: `3ddc28b9063b4bf8e6008dc183aa4a3db4810cd7`
+- Build runner: `jhl-space`
+- Distribution tag: `jam-v0.21.0`
+- Metrics spec: `v8.2.0`
+
+### Artifacts
+
+- SHA256SUMS
+- jam_v0.21.0_darwin_amd64
+- jam_v0.21.0_darwin_amd64.tar.gz
+- jam_v0.21.0_darwin_arm64
+- jam_v0.21.0_darwin_arm64.tar.gz
+- jam_v0.21.0_linux_amd64
+- jam_v0.21.0_linux_amd64.tar.gz
+- jam_v0.21.0_linux_arm64
+- jam_v0.21.0_linux_arm64.tar.gz
+- jam_v0.21.0_windows_amd64.exe
+- jam_v0.21.0_windows_amd64.tar.gz
+- jam_v0.21.0_windows_arm64.exe
+- jam_v0.21.0_windows_arm64.tar.gz
+
+### Changes
+
+- JAM v0.21.0 / metrics v8.2.0: ARCH-07 Low Cohesion (LCOM4) — beyond the dep graph (3ddc28b)
+
+---
+
 ## JAM v0.20.0
 
 - Source commit: `19d64f64a8cc3d16ad62abf4d382c2a097143315`
