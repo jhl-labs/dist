@@ -1,5 +1,34 @@
 # jam release notes
 
+## JAM v0.29.0
+
+- Source commit: `7996f94a90544e62a1cb60ccf6f49ffae24c021f`
+- Build runner: `jhl-space`
+- Distribution tag: `jam-v0.29.0`
+- Metrics spec: `v8.10.0`
+
+### Artifacts
+
+- SHA256SUMS
+- jam_v0.29.0_darwin_amd64
+- jam_v0.29.0_darwin_amd64.tar.gz
+- jam_v0.29.0_darwin_arm64
+- jam_v0.29.0_darwin_arm64.tar.gz
+- jam_v0.29.0_linux_amd64
+- jam_v0.29.0_linux_amd64.tar.gz
+- jam_v0.29.0_linux_arm64
+- jam_v0.29.0_linux_arm64.tar.gz
+- jam_v0.29.0_windows_amd64.exe
+- jam_v0.29.0_windows_amd64.tar.gz
+- jam_v0.29.0_windows_arm64.exe
+- jam_v0.29.0_windows_arm64.tar.gz
+
+### Changes
+
+- JAM v0.29.0 / metrics v8.10.0: intra-procedural taint for SEC-07/08 (TS/JS) (7996f94)
+
+---
+
 ## JAM v0.28.0
 
 - Source commit: `dea2d851ba8d509896e24ea4985379fe045ffc7f`
