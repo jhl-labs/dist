@@ -1,5 +1,35 @@
 # jam release notes
 
+## JAM v0.24.0
+
+- Source commit: `bf09b8df26164bfd2450166669d66183e069313e`
+- Build runner: `jhl-space`
+- Distribution tag: `jam-v0.24.0`
+- Metrics spec: `v8.5.0`
+
+### Artifacts
+
+- SHA256SUMS
+- jam_v0.24.0_darwin_amd64
+- jam_v0.24.0_darwin_amd64.tar.gz
+- jam_v0.24.0_darwin_arm64
+- jam_v0.24.0_darwin_arm64.tar.gz
+- jam_v0.24.0_linux_amd64
+- jam_v0.24.0_linux_amd64.tar.gz
+- jam_v0.24.0_linux_arm64
+- jam_v0.24.0_linux_arm64.tar.gz
+- jam_v0.24.0_windows_amd64.exe
+- jam_v0.24.0_windows_amd64.tar.gz
+- jam_v0.24.0_windows_arm64.exe
+- jam_v0.24.0_windows_arm64.tar.gz
+
+### Changes
+
+- Release jam v0.24.0 (bf09b8d)
+- Add source coverage validation to jam-full (4277580)
+
+---
+
 ## JAM v0.23.0
 
 - Source commit: `890a8baf449e7b1b4655235f55afe5120af474d4`
