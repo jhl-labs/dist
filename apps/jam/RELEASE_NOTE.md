@@ -1,5 +1,34 @@
 # jam release notes
 
+## JAM v0.35.0
+
+- Source commit: `b89c87462a53453abdaf0c800603169906b8ad2e`
+- Build runner: `jhl-space`
+- Distribution tag: `jam-v0.35.0`
+- Metrics spec: `v12.0.0`
+
+### Artifacts
+
+- SHA256SUMS
+- jam_v0.35.0_darwin_amd64
+- jam_v0.35.0_darwin_amd64.tar.gz
+- jam_v0.35.0_darwin_arm64
+- jam_v0.35.0_darwin_arm64.tar.gz
+- jam_v0.35.0_linux_amd64
+- jam_v0.35.0_linux_amd64.tar.gz
+- jam_v0.35.0_linux_arm64
+- jam_v0.35.0_linux_arm64.tar.gz
+- jam_v0.35.0_windows_amd64.exe
+- jam_v0.35.0_windows_amd64.tar.gz
+- jam_v0.35.0_windows_arm64.exe
+- jam_v0.35.0_windows_arm64.tar.gz
+
+### Changes
+
+- JAM v0.35.0 / metrics v12.0.0: CPLX extreme-complexity ceiling (4th category ceiling) (b89c874)
+
+---
+
 ## JAM v0.34.0
 
 - Source commit: `11b15626d9e3602d42a00fd903c4b9acb6e6d4fc`
