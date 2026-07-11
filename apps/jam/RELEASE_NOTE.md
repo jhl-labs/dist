@@ -1,5 +1,55 @@
 # jam release notes
 
+## jam v0.36.0
+
+- Source commit: `0b3328fe97b22c8add604f22ff2cfbcfe8183e6a`
+- Build runner: `local`
+- Distribution tag: `jam-v0.36.0`
+- Metrics spec: `v12.3.0`
+
+### Artifacts
+
+- SHA256SUMS
+- jam_v0.36.0_darwin_amd64
+- jam_v0.36.0_darwin_amd64.tar.gz
+- jam_v0.36.0_darwin_arm64
+- jam_v0.36.0_darwin_arm64.tar.gz
+- jam_v0.36.0_linux_amd64
+- jam_v0.36.0_linux_amd64.tar.gz
+- jam_v0.36.0_linux_arm64
+- jam_v0.36.0_linux_arm64.tar.gz
+- jam_v0.36.0_windows_amd64.exe
+- jam_v0.36.0_windows_amd64.tar.gz
+- jam_v0.36.0_windows_arm64.exe
+- jam_v0.36.0_windows_arm64.tar.gz
+
+### Changes
+
+- fix(config): arch rules/layers 키 순서 무관 파싱; full 게이트 실패 메시지에 컴포넌트 명시 (0b3328f)
+- jam v0.36.0 / metrics v12.3.0: ARCH-09 레이어 규칙 + jam-full spec 컴포넌트 (1331280)
+- docs: ARCH-09·spec 컴포넌트 문서/스키마/체인지로그 (metrics v12.3.0) (536932f)
+- test(report): jam-full spec 컴포넌트 렌더 회귀 테스트 (60ddff6)
+- feat(cli): --component spec / --spec-cli 추가 (597e8a8)
+- feat(full): opt-in spec 컴포넌트 (외부 spec-cli 요구사항 검증 리포트 합성) (c4754ce)
+- feat(cli): jam.yaml arch 설정을 스캔 파이프라인에 전달 (98bdef4)
+- feat(arch): ARCH-09 레이어 규칙 위반 검출 + engine 배선 (33b80fd)
+- feat(metrics): ARCH-09 레이어 규칙 위반 등록, SpecVersion 12.3.0 (7114c26)
+- feat(config): jam.yaml arch.layers / arch.rules(deny) 파싱 (e4aefd1)
+- refactor: glob 매칭을 internal/globs로 분리 (suppress·layer 규칙 공용) (091b43b)
+- docs: ARCH-09 + spec 컴포넌트 구현 계획 (7adca78)
+- docs: ARCH-09 레이어 규칙 + jam-full spec 컴포넌트 설계 스펙 (d085706)
+- jam-full: lint 가중치를 린트 대상 언어의 코드베이스 비중에 비례 (6ad9fe8)
+- jam-full: 미측정 컴포넌트를 종합에서 제외(게이트는 유지) (d46edff)
+- jam-full: opt-in lint 컴포넌트 (외부 린터, 오프라인·재현성 보존) (094b5e7)
+- metrics v12.2.0: HYG-12 정적 검사기 억제 지표 추가 (6b2becf)
+- metrics v12.1.0: 바이브코딩 위생 지표 4종 추가 (HYG-08~11) (9a5c785)
+- Update INTRODUCE.md (3b2fc5b)
+- docs: rewrite INTRODUCE.md — 자연스러운 한국어, 내용 본문화, 근거 출처 보강 (1c7fde9)
+- docs: add INTRODUCE.md — JAM 소개 글 (사내 AI 튜토리얼 공모전용) (adc7446)
+- docs(pages): update GitHub Pages to current implementation (v0.35.0 / metrics v12.0.0) (6621df7)
+
+---
+
 ## JAM v0.35.0
 
 - Source commit: `b89c87462a53453abdaf0c800603169906b8ad2e`
