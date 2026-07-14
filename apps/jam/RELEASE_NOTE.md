@@ -1,5 +1,37 @@
 # jam release notes
 
+## JAM v0.39.0
+
+- Source commit: `ba7972e5d4662b4478ac0c9ad804c8a6ff5bd520`
+- Build runner: `jhl-space`
+- Distribution tag: `jam-v0.39.0`
+- Metrics spec: `v13.0.0`
+
+### Artifacts
+
+- SHA256SUMS
+- jam_v0.39.0_darwin_amd64
+- jam_v0.39.0_darwin_amd64.tar.gz
+- jam_v0.39.0_darwin_arm64
+- jam_v0.39.0_darwin_arm64.tar.gz
+- jam_v0.39.0_linux_amd64
+- jam_v0.39.0_linux_amd64.tar.gz
+- jam_v0.39.0_linux_arm64
+- jam_v0.39.0_linux_arm64.tar.gz
+- jam_v0.39.0_windows_amd64.exe
+- jam_v0.39.0_windows_amd64.tar.gz
+- jam_v0.39.0_windows_arm64.exe
+- jam_v0.39.0_windows_arm64.tar.gz
+
+### Changes
+
+- make release workflows resilient to artifact quotas (ba7972e)
+- build current jam in gitops analysis (85a95e4)
+- standardize production analysis and security assurance (0ec6235)
+- docs: spec 컴포넌트 참조 구현(jhl-labs/spec-cli) 링크 (673f450)
+
+---
+
 ## jam v0.36.0
 
 - Source commit: `0b3328fe97b22c8add604f22ff2cfbcfe8183e6a`
