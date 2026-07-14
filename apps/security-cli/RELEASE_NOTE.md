@@ -1,5 +1,57 @@
 # security-cli release notes
 
+## security-cli v0.2.0
+
+- Source commit: `2106a82905a5263de91a9542221fa1efba4d3f88`
+- Build runner: `jhl-space`
+- Distribution tag: `security-cli-v0.2.0`
+
+### Artifacts
+
+- SHA256SUMS
+- security-cli_v0.2.0_darwin_amd64
+- security-cli_v0.2.0_darwin_amd64.tar.gz
+- security-cli_v0.2.0_darwin_arm64
+- security-cli_v0.2.0_darwin_arm64.tar.gz
+- security-cli_v0.2.0_linux_amd64
+- security-cli_v0.2.0_linux_amd64.tar.gz
+- security-cli_v0.2.0_linux_arm64
+- security-cli_v0.2.0_linux_arm64.tar.gz
+- security-cli_v0.2.0_windows_amd64.exe
+- security-cli_v0.2.0_windows_amd64.tar.gz
+- security-cli_v0.2.0_windows_arm64.exe
+- security-cli_v0.2.0_windows_arm64.tar.gz
+
+### Changes
+
+- fix: run database updates from installed tool paths (2106a82)
+- docs: prepare v0.2.0 release (26003ef)
+- docs: add portfolio security coverage guidance (51657c3)
+- feat(report): expose scanner coverage in all formats (891e8e6)
+- feat: add coverage-aware scan orchestration (73dd60a)
+- Baseline legacy Sonar sort findings (c08fd3d)
+- Limit SonarQube scope to source code (d8ba5a7)
+- Baseline legacy Sonar maintainability rules (df5ed7c)
+- Tighten SonarQube analysis scope (2262a65)
+- Run JAM v0.17.0 in quality workflow (74fa235)
+- Document JAM exceptions for CLI orchestration (8d9115c)
+- Use literal updater command names (3a158fe)
+- Set up Go before GitOps test scan (f8335fc)
+- Raise security CLI coverage for GitOps quality (eeb08f6)
+- Install project dependencies before GitOps test scan (910da69)
+- Update GitOps quality workflow (3fe3929)
+- Retry transient SonarQube scan failures (3143e3b)
+- Harden GitOps quality metrics reporting (8544863)
+- Stop reporting smoke test coverage (b962f7d)
+- Harden GitOps quality workflow payloads (8671b5a)
+- Fix coverage webhook JSON payload (1a9625a)
+- Add SonarQube and smoke test quality checks (0cd0d45)
+- Fix GitOps quality workflow run URLs (08ac9d2)
+- Report empty test summaries to GitOps Console (91a5f73)
+- Add GitOps quality metrics workflow (1921f9b)
+
+---
+
 ## security-cli v0.1.8
 
 - Source commit: `eeaf428897d4a747641b215b253ff3c8aba20056`
