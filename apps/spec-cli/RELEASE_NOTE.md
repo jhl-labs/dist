@@ -1,5 +1,42 @@
 # spec-cli release notes
 
+## spec-cli v0.2.0
+
+- Source commit: `726ca1a145ddd7e7e0d7e4cea0fa2957af745b29`
+- Build runner: `jhl-space`
+- Distribution tag: `spec-cli-v0.2.0`
+
+### Artifacts
+
+- SHA256SUMS
+- spec-cli_v0.2.0_darwin_amd64
+- spec-cli_v0.2.0_darwin_amd64.tar.gz
+- spec-cli_v0.2.0_darwin_arm64
+- spec-cli_v0.2.0_darwin_arm64.tar.gz
+- spec-cli_v0.2.0_linux_amd64
+- spec-cli_v0.2.0_linux_amd64.tar.gz
+- spec-cli_v0.2.0_linux_arm64
+- spec-cli_v0.2.0_linux_arm64.tar.gz
+- spec-cli_v0.2.0_windows_amd64.exe
+- spec-cli_v0.2.0_windows_amd64.tar.gz
+- spec-cli_v0.2.0_windows_arm64.exe
+- spec-cli_v0.2.0_windows_arm64.tar.gz
+
+### Changes
+
+- ci: provision release race toolchain (726ca1a)
+- ci: isolate release quality gate (ff88615)
+- ci: enable cgo for release race tests (137921c)
+- docs: prepare v0.2.0 release metadata (469f0ac)
+- build: align release version metadata (a07176f)
+- feat: integrate trace reports and quality gates (5301fe6)
+- feat: add summary and SARIF renderers (b2b1b97)
+- feat: add requirement trace diagnostics (e0cedf7)
+- fix: harden requirement evidence pipeline (e793da6)
+- build: go 1.26 (garble v0.16.0 요구, security-cli와 일치) (d65c165)
+
+---
+
 ## spec-cli v0.1.0
 
 - Source commit: `e4cd775be08bd7f954e963c6e5525061bacd6a9d`
