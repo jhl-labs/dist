@@ -1,5 +1,39 @@
 # spec-cli release notes
 
+## spec-cli v0.3.0
+
+- Source commit: `09f7dfd129b11e4d08c03e092044f5e1e64d4041`
+- Build runner: `jhl-space`
+- Distribution tag: `spec-cli-v0.3.0`
+
+### Artifacts
+
+- SHA256SUMS
+- spec-cli_v0.3.0_darwin_amd64
+- spec-cli_v0.3.0_darwin_amd64.tar.gz
+- spec-cli_v0.3.0_darwin_arm64
+- spec-cli_v0.3.0_darwin_arm64.tar.gz
+- spec-cli_v0.3.0_linux_amd64
+- spec-cli_v0.3.0_linux_amd64.tar.gz
+- spec-cli_v0.3.0_linux_arm64
+- spec-cli_v0.3.0_linux_arm64.tar.gz
+- spec-cli_v0.3.0_windows_amd64.exe
+- spec-cli_v0.3.0_windows_amd64.tar.gz
+- spec-cli_v0.3.0_windows_arm64.exe
+- spec-cli_v0.3.0_windows_arm64.tar.gz
+
+### Changes
+
+- docs: prepare v0.3.0 traceability release (09f7dfd)
+- feat: add end-to-end specification traceability (786658b)
+- docs: document hardened analysis and release policy (b6ba05f)
+- fix: make release publishing transactional (6e76597)
+- fix: preserve trace suppression metadata (1310a3e)
+- fix: harden requirement matching and file boundaries (328e55d)
+- ci: drop redundant release artifact copy (5d08bab)
+
+---
+
 ## spec-cli v0.2.0
 
 - Source commit: `726ca1a145ddd7e7e0d7e4cea0fa2957af745b29`
