@@ -1,5 +1,35 @@
 # jam release notes
 
+## JAM v0.40.0
+
+- Source commit: `4435c894b03ac6340d6884a8c9ba1a1d880219c5`
+- Build runner: `jhl-space`
+- Distribution tag: `jam-v0.40.0`
+- Metrics spec: `v14.0.0`
+
+### Artifacts
+
+- SHA256SUMS
+- jam_v0.40.0_darwin_amd64
+- jam_v0.40.0_darwin_amd64.tar.gz
+- jam_v0.40.0_darwin_arm64
+- jam_v0.40.0_darwin_arm64.tar.gz
+- jam_v0.40.0_linux_amd64
+- jam_v0.40.0_linux_amd64.tar.gz
+- jam_v0.40.0_linux_arm64
+- jam_v0.40.0_linux_arm64.tar.gz
+- jam_v0.40.0_windows_amd64.exe
+- jam_v0.40.0_windows_amd64.tar.gz
+- jam_v0.40.0_windows_arm64.exe
+- jam_v0.40.0_windows_arm64.tar.gz
+
+### Changes
+
+- fix: align labeled benchmark with metrics v14 (4435c89)
+- release: JAM v0.40.0 metrics v14.0.0 (c2005d4)
+
+---
+
 ## JAM v0.39.0
 
 - Source commit: `ba7972e5d4662b4478ac0c9ad804c8a6ff5bd520`
